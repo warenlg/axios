@@ -26,7 +26,7 @@ describe('utils::isX', function () {
 
   it('should validate String', function () {
     expect(utils.isString('')).toEqual(true);
-    expect(utils.isString({toString: function () { return ''; }})).toEqual(false);
+    expect(utils.isString({toString: function () { return ''; }}) ).toEqual(false);
   });
 
   it('should validate Number', function () {

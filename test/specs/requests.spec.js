@@ -38,6 +38,7 @@ describe('requests', function () {
 
     getAjaxRequest().then(function (request) {
       expect(request.url).toBe('/foo');
+
       expect(request.method).toBe('POST');
       done();
     });

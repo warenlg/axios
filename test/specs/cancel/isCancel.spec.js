@@ -7,6 +7,6 @@ describe('isCancel', function() {
   });
 
   it('returns false if value is not a Cancel', function() {
-    expect(isCancel({ foo: 'bar' })).toBe(false);
+    expect(isCancel({ foo: 'bar'})).toBe(false);
   });
 });

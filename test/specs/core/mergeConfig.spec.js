@@ -21,7 +21,7 @@ describe('core::mergeConfig', function() {
       url: '__sample url__',
       method: '__sample method__',
       params: '__sample params__',
-      data: { foo: true }
+      data:{ foo: true }
     };
     var merged = mergeConfig(defaults, config);
     expect(merged.url).toEqual(config.url);

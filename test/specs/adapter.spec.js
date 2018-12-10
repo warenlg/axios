@@ -10,7 +10,7 @@ describe('adapter', function () {
       }
     });
 
-    setTimeout(function () {
+    setTimeout( function () {
       expect(called).toBe(true);
       done();
     }, 100);

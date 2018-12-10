@@ -28,6 +28,7 @@ describe('xsrf', function () {
       expect(request.requestHeaders[axios.defaults.xsrfHeaderName]).toEqual('12345');
       done();
     });
+
   });
 
   it('should not set xsrf header if xsrfCookieName is null', function (done) {

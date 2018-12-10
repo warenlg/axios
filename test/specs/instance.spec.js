@@ -22,7 +22,7 @@ describe('instance', function () {
         'default'].indexOf(prop) > -1) {
         continue;
       }
-      expect(typeof instance[prop]).toBe(typeof axios[prop]);
+      expect(typeof instance[ prop ]).toBe(typeof axios[prop]);
     }
   });
 

@@ -23,6 +23,7 @@ server = http.createServer(function (req, res) {
   console.log('[' + new Date() + ']', req.method, pathname);
 
   if (pathname === '/') {
+
     pathname = '/index.html';
   }
 

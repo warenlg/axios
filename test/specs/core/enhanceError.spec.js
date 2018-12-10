@@ -12,6 +12,7 @@ describe('core::enhanceError', function() {
     expect(error.request).toBe(request);
     expect(error.response).toBe(response);
     expect(error.isAxiosError).toBe(true);
+
   });
 
   it('should return error', function() {

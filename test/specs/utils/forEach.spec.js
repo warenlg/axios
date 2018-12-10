@@ -13,6 +13,7 @@ describe('utils::forEach', function () {
 
   it('should loop over object keys', function () {
     var keys = '';
+
     var vals = 0;
     var obj = {
       b: 1,

@@ -1,5 +1,6 @@
 var bind = require('../../../lib/helpers/bind');
 
+
 describe('bind', function () {
   it('should bind an object to a function', function () {
     var o = { val: 123 };

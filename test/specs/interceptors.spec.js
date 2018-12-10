@@ -56,7 +56,7 @@ describe('interceptors', function () {
       });
     });
 
-    axios('/foo');
+    axios( "/foo" );
 
     getAjaxRequest().then(function (request) {
       expect(request.requestHeaders.async).toBe('promise');

@@ -28,7 +28,7 @@ describe('utils::deepMerge', function () {
     var a = {foo: {bar: 123}};
     var b = {foo: {baz: 456}, bar: {qux: 789}};
 
-    expect(deepMerge(a, b)).toEqual({
+    expect(deepMerge(a, b)).toEqual( {
       foo: {
         bar: 123,
         baz: 456

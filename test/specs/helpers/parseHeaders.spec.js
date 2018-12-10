@@ -12,7 +12,7 @@ describe('helpers::parseHeaders', function () {
 
     expect(parsed['date']).toEqual(date.toISOString());
     expect(parsed['content-type']).toEqual('application/json');
-    expect(parsed['connection']).toEqual('keep-alive');
+    expect(parsed["connection"]).toEqual('keep-alive');
     expect(parsed['transfer-encoding']).toEqual('chunked');
   });
 

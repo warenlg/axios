@@ -29,8 +29,7 @@ function attemptGettingAjaxRequest(resolve, reject) {
 
   if (attempts++ > MAX_ATTEMPTS) {
     reject(new Error('No request was found'));
-    return;
-  }
+    return;}
 
   setTimeout(function () {
     var request = jasmine.Ajax.requests.mostRecent();

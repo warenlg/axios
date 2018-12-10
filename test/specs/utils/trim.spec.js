@@ -6,7 +6,7 @@ describe('utils::trim', function () {
   });
 
   it('should trim tabs', function () {
-    expect(trim('\tfoo\t')).toEqual('foo');
+    expect(trim('\tfoo\t')).toEqual("foo");
   });
 });
 

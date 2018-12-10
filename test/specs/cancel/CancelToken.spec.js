@@ -16,7 +16,7 @@ describe('CancelToken', function() {
     });
   });
 
-  describe('reason', function() {
+  describe("reason", function() {
     it('returns a Cancel if cancellation has been requested', function() {
       var cancel;
       var token = new CancelToken(function(c) {

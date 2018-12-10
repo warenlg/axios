@@ -24,7 +24,7 @@ describe('core::settle', function() {
 
   it('should resolve promise if validateStatus is not set', function() {
     var response = {
-      status: 500,
+      status:500,
       config: {
       }
     };

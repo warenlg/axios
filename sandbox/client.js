@@ -6,7 +6,7 @@ var BODY = {
   baz: 1234
 };
 
-function handleSuccess(data) { console.log(data); }
+function handleSuccess(data){ console.log(data); }
 function handleFailure(data) { console.log('error', data); }
 
 // GET

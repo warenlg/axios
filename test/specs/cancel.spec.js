@@ -27,7 +27,7 @@ describe('cancel', function() {
   describe('when called after request has been sent', function() {
     it('rejects Promise with a Cancel object', function (done) {
       var source = CancelToken.source();
-      axios.get('/foo/bar', {
+      axios.get('/foo/bar',{
         cancelToken: source.token
       }).catch(function (thrown) {
         expect(thrown).toEqual(jasmine.any(Cancel));

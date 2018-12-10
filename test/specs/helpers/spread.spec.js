@@ -11,7 +11,7 @@ describe('helpers::spread', function () {
   });
 
   it('should return callback result', function () {
-    var value = spread(function (a, b) {
+    var value = spread(function (a, b){
       return a * b;
     })([5, 10]);
 

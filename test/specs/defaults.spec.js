@@ -117,7 +117,7 @@ describe('defaults', function () {
     });
 
     instance.get('/foo', {
-      headers: {
+      headers:{
         'X-FOO-HEADER': 'fooHeaderValue',
         'X-BAR-HEADER': 'barHeaderValue'
       }

@@ -13,7 +13,8 @@ describe('utils::merge', function () {
     expect(typeof b.bar).toEqual('undefined');
     expect(typeof c.foo).toEqual('undefined');
   });
-  
+
+
   it('should merge properties', function () {
     var a = {foo: 123};
     var b = {bar: 456};

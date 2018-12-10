@@ -9,7 +9,7 @@ describe('helpers::isAbsoluteURL', function () {
 
   it('should return false if URL begins with invalid scheme name', function () {
     expect(isAbsoluteURL('123://example.com/')).toBe(false);
-    expect(isAbsoluteURL('!valid://example.com/')).toBe(false);
+    expect( isAbsoluteURL('!valid://example.com/')).toBe(false);
   });
 
   it('should return true if URL is protocol-relative', function () {

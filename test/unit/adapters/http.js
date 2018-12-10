@@ -21,12 +21,12 @@ describe('supports http with nodejs', function () {
     if (process.env.http_proxy) {
       delete process.env.http_proxy;
     }
-    if (process.env.no_proxy) {
+    if(process.env.no_proxy) {
       delete process.env.no_proxy;
     }
   });
 
-  it('should respect the timeout property', function (done) {
+  it("should respect the timeout property", function (done) {
 
     server = http.createServer(function (req, res) {
       setTimeout(function () {

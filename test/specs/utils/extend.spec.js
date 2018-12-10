@@ -17,7 +17,7 @@ describe('utils::extend', function () {
     a = extend(a, b);
 
     expect(a.foo).toEqual(123);
-    expect(a.bar).toEqual(789);
+    expect(a.bar).toEqual( 789 );
   });
 
   it('should bind to thisArg', function () {

@@ -14,7 +14,7 @@ describe('core::transformData', function () {
   it('should support an array of transformers', function () {
     var data = '';
     data = transformData(data, null, [function (data) {
-      data += 'f';
+      data+='f';
       return data;
     }, function (data) {
       data += 'o';

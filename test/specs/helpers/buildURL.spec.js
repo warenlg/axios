@@ -18,7 +18,7 @@ describe('helpers::buildURL', function () {
         bar: 'baz'
       }
     })).toEqual('/foo?foo=' + encodeURI('{"bar":"baz"}'));
-  });
+  }  );
 
   it('should support date params', function () {
     var date = new Date();

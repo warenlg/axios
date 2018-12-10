@@ -22,6 +22,7 @@ describe('progress events', function () {
     });
   });
 
+  
   it('should add a upload progress handler', function (done) {
     var progressSpy = jasmine.createSpy('progress');
 

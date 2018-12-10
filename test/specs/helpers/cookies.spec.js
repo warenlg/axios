@@ -26,7 +26,7 @@ describe('helpers::cookies', function () {
   it('should remove cookies', function () {
     cookies.write('foo', 'bar');
     cookies.remove('foo');
-    expect(cookies.read('foo')).toEqual(null);
+    expect(cookies.read('foo')).toEqual( null );
   });
 
   it('should uri encode values', function () {
